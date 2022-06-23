@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "bluebird": "^3.7.2",
+    "cassandra-driver": "^4.6.3",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "minimist": "^1.2.6",
+    "passport": "^0.6.0"
+  }
+}
