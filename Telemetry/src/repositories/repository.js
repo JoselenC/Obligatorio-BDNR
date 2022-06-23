@@ -74,7 +74,7 @@ module.exports = class Repository {
     var res  = null
     const query = "INSERT INTO bdnr.telemetry (vehicleid,registertime,waves,temperature,vibration,voltage,pressure,speed) VALUES('"+data.vehicleid+"',toTimestamp(now()),"+data.waves+","+data.temperature+","+data.vibration+","+data.voltage+","+data.pressure+","+data.speed+" );";
     await new Promise(async function (resolve, reject) {
-      await Repository.client.execute(query2,function(err,result){
+      await Repository.client.execute(query,function(err,result){
         try{
          resolve(res)
          res= "Se agrego correctamente"
