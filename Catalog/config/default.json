@@ -1,0 +1,8 @@
+{
+    "repository": {
+        "url": "mongodb://localhost:27017/catalog",
+        "database": "catalog"
+    },
+    "port":6069,
+    "timeout": 300000
+}
